@@ -45,10 +45,18 @@ body {
 
 .right-side h1 {
   color: #c89441;
+  margin: 50px;
+
 }
 
 .right-side h2 {
   color: #5E6D3B;
+    margin:10px 80px;
+
+}
+.right-side p {
+    margin:  10px 20px;
+
 }
 
 .button {
