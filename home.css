@@ -1,5 +1,7 @@
 body{
   font-family:  "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .logo {
   width: 300px;
@@ -30,7 +32,7 @@ body{
     height: auto;
 
 }
-.landing-page{
+.header-page{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,4 +54,45 @@ justify-content: center;
    background-color: #c89441;
 
 
+}
+.button button:hover{
+ background-color: white;
+
+}
+.landing-page{
+  display: flex;
+  justify-content: space-between;
+   
+  background-color: #c89441;
+border-radius: 10px;
+width: auto;
+height: 500px;
+}
+
+.page-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe{
+  height: 400px;
+  width: auto;
+
+}
+iframe:hover{
+ transform: scale(1.03);
+}
+.button-story {
+background-color: white;    
+border-radius: 30px;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+.button-story:hover{
+background-color: #c89441;   transform: scale(1.05);
+
+}
+.page-right img {
+  width: 500px;
+  height: auto;
 }
