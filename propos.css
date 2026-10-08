@@ -70,3 +70,128 @@ height: 300px;
     align-items: center;
     justify-content: center;
 }
+
+.footer-part {
+  display: flex;
+  background-color: #c89441;
+  height: 150px;
+  width: auto;
+  align-items: center;
+  justify-content: start;
+  justify-content: space-evenly;
+}
+
+.navbar-Foter {
+  margin: 20px;
+  display: flex;
+  ;
+  gap: 30px;
+}
+
+.navbar-Foter a {
+  text-decoration: none;
+  color: #5E6D3B;
+  font-weight: bold;
+
+}
+
+.fa {
+  text-decoration: none;
+  gap: 5px;
+  width: 100px;
+  color: #5E6D3B;
+  font-weight: bold;
+
+}
+.buttonTo-pruduit a{
+text-decoration: none;
+border-radius: 15px;
+background-color: hsl(78, 30%, 33%);
+padding: 15px 25px;
+color: black;
+}
+
+.buttonTo-pruduit a:hover{
+background-color: #c89441;
+color: white;
+
+}
+.propos{
+    background-color: #c89441;
+}
+@media (max-width: 768px) {
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar a {
+        font-size: 9px;
+    }
+
+
+    .button {
+        padding: 5px 18px;
+        font-size: 10px;
+
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 19px;
+
+    }
+
+
+
+
+
+    a {
+        padding: 5px 18px;
+        font-size: 10px;
+
+    }
+
+  .partofstory{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .box{
+    height: auto;
+  }
+  .info h2{
+    font-size: small;
+    
+  }
+
+    .footer-part a {
+        padding: 1px 15px;
+        font-size: 10px;
+        gap: 3px;
+
+    }
+
+    .footer-part {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}

@@ -25,6 +25,10 @@ body {
 
 }
 
+.index {
+  background-color: #c89441;
+}
+
 .navbar a:hover {
   color: black;
   background-color: #c89441;
@@ -45,17 +49,17 @@ body {
 
 .right-side h1 {
   color: #c89441;
-  margin: 50px;
 
 }
 
 .right-side h2 {
   color: #5E6D3B;
-    margin:10px 80px;
+  margin: 10px 80px;
 
 }
+
 .right-side p {
-    margin:  10px 20px;
+  margin: 10px 20px;
 
 }
 
@@ -87,6 +91,7 @@ body {
   border-radius: 10px;
   width: auto;
   height: 500px;
+  border-radius: 5px;
 }
 
 .page-right {
@@ -220,15 +225,126 @@ iframe:hover {
   font-weight: bold;
 
 }
-.buttonTo-pruduit a{
-text-decoration: none;
-border-radius: 15px;
-background-color: hsl(78, 30%, 33%);
-padding: 15px 25px;
-color: black;
+
+.buttonTo-pruduit a {
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: hsl(78, 30%, 33%);
+  padding: 15px 25px;
+  color: black;
 }
-.buttonTo-pruduit a:hover{
-background-color: #c89441;
-color: white;
+
+.buttonTo-pruduit a:hover {
+  background-color: #c89441;
+  color: white;
+
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar a {
+    font-size: 9px;
+  }
+
+  .header-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-side h2 {
+    font-size: 12px;
+
+  }
+
+  .right-side h1 {
+    font-size: 19px;
+
+  }
+
+  .right-side p {
+    font-size: 10px;
+
+  }
+
+  .button {
+    padding: 5px 18px;
+    font-size: 10px;
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 19px;
+
+  }
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button-story {
+    padding: 5px 18px;
+    font-size: 10px;
+
+  }
+
+  .page-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maps {
+    max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    padding: 5px 18px;
+    font-size: 10px;
+
+  }
+  .best-pruduit{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+
+  }
+   .footer-part a{
+     padding: 1px 15px;
+    font-size: 10px;
+   gap: 3px;
+
+  }
+  .footer-part{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
 
 }
