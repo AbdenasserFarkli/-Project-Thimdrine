@@ -365,7 +365,7 @@ padding-top: 10px;
 
   }
   .navbar{
-    gap: 2px;
+    gap: 0.5px;
     display: flex;
   }
 
