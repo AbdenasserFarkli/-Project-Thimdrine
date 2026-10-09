@@ -341,9 +341,8 @@ iframe:hover {
 
   }
    .footer-part a{
-     padding: 1px 10px;
     font-size: 10px;
-   gap: 3px;
+   gap: px;
 
   }
   .footer-part{
@@ -352,6 +351,9 @@ iframe:hover {
     display: flex;
     flex-direction: column;
 
+  }
+  .fa{
+    gap: 1px;
   }
 
 
