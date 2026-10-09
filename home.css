@@ -259,20 +259,24 @@ iframe:hover {
   .logo {
     max-width: 100%;
     height: auto;
+    margin: 0;
   }
 
   .navbar {
     display: flex;
     flex-direction: column;
+    align-items: center;
+padding-top: 10px;
   }
 
   .navbar a {
-    font-size: 9px;
+    font-size: 5px;
   }
 
   .header-page {
     display: flex;
     flex-direction: column;
+
   }
 
   .right-side h2 {
@@ -361,7 +365,7 @@ iframe:hover {
 
   }
   .navbar{
-    gap: 1.1rem;
+    gap: 2px;
     display: flex;
   }
 
