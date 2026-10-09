@@ -266,6 +266,10 @@ form {
         flex-direction: column;
 
     }
+    .Réseaux-sociaux{
+        display: flex;
+        align-items: center;
+    }
 
 
 }
