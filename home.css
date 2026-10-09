@@ -272,6 +272,7 @@ iframe:hover {
 
   .right-side h1 {
     font-size: 19px;
+    margin-left: 5px;
 
   }
 
@@ -348,6 +349,10 @@ iframe:hover {
     display: flex;
     flex-direction: column;
 
+  }
+  .navbar{
+    gap: 1.7rem;
+    display: flex;
   }
 
 
