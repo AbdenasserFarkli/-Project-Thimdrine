@@ -38,7 +38,9 @@ body {
 .index {
   background-color: #c89441;
 }
-
+.space{
+  display: none;
+}
 .navbar a:hover {
   color: black;
   background-color: #c89441;
@@ -256,6 +258,10 @@ iframe:hover {
 }
 
 @media (max-width: 768px) {
+  
+  .space{
+    display: block;
+  }
   .logo {
     max-width: 100%;
     height: 10%;
