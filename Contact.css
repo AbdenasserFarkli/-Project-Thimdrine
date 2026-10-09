@@ -253,9 +253,9 @@ form {
     }
 
     .footer-part a {
-        padding: 1px 15px;
+        padding: 1px 10px;
         font-size: 10px;
-        gap: 3px;
+        gap: 1px;
 
     }
 
