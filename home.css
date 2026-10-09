@@ -10,11 +10,19 @@ body {
 }
 
 .header-container {
-  width: 100%;
+    width: 100%;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.navbar{
+    position: relative;
+
 }
 
 .navbar a {
@@ -333,7 +341,7 @@ iframe:hover {
 
   }
    .footer-part a{
-     padding: 1px 15px;
+     padding: 1px 10px;
     font-size: 10px;
    gap: 3px;
 

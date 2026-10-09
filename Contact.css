@@ -15,6 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.navbar{
+    position: relative;
+
 }
 
 .navbar a {
@@ -268,7 +276,6 @@ form {
     }
     .Réseaux-sociaux a {
         display: flex;
-        justify-content: center;
         gap: 1px;
         width: 10%;
     }
