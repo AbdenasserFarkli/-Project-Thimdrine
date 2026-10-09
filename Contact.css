@@ -270,6 +270,7 @@ form {
         display: flex;
         justify-content: center;
         gap: 1px;
+        width: 10%;
     }
 
 
