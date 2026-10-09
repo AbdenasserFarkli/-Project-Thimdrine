@@ -268,7 +268,8 @@ form {
     }
     .Réseaux-sociaux{
         display: flex;
-        align-items: center;
+        justify-content: center;
+        gap: 1px;
     }
 
 
