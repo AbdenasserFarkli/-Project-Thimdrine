@@ -266,7 +266,7 @@ form {
         flex-direction: column;
 
     }
-    .Réseaux-sociaux{
+    .Réseaux-sociaux a {
         display: flex;
         justify-content: center;
         gap: 1px;
