@@ -256,6 +256,7 @@ iframe:hover {
 
   .navbar {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -267,19 +268,24 @@ iframe:hover {
     display: flex;
     flex-direction: column;
   }
+  .right-side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
   .right-side h2 {
-    font-size: 12px;
+    font-size: 7px;
 
   }
 
   .right-side h1 {
-    font-size: 19px;
+    font-size: 13px;
 
   }
 
   .right-side p {
-    font-size: 10px;
+    font-size: 6px;
 
   }
 
@@ -354,7 +360,7 @@ iframe:hover {
   }
   .fa{
     gap: 1px;
-    padding: 0px;
+    padding: 0;
   }
 
 
